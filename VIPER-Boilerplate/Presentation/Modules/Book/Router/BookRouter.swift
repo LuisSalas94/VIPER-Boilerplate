@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol RouterProtocol: AnyObject {
+protocol BookRouterProtocol: AnyObject {
     
 }
 
-class Router {
+class BookRouter {
     var currentVC: UIViewController
     init(currentVC: UIViewController) {
         self.currentVC = currentVC
@@ -19,6 +19,6 @@ class Router {
 }
 
 
-extension Router: RouterProtocol {
+extension BookRouter: BookRouterProtocol {
     
 }
